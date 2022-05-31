@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randomizer</title>
+    
+    <!-- STYLE -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One" rel="stylesheet">
+
+<body class="flex column">
+    <header class="flex">
+        <img src="images/favicon/android-chrome-192x192.png" alt="Logo">
+        <h1>RANDOMIZER</h1>
+    </header>
+
+    <main class="flex" id="main">
+        <div class="flex column">
+            <textarea class="content biggerFont" name="textArea" id="textArea" cols="40" rows="10"></textarea>
+            <p id="obs" class="content"><em class="fadedFont">Obs: Separe os elementos por linha.</em></p>
+            <button class="content">Sortear</button>
+            <p class="content biggerFont" id="result">&shy</p>
+        </div>
+    </main>
+
+    <footer>
+        <address class="flex column">
+            <p class="fadedFont">Mateus Cavedini Pereira</p>
+            <p class="fadedFont"><a href="https://github.com/mateuscavedini" target="_blank" class="footerLink fadedFont">GitHub</a> | <a href="mailto:mateuscvdn@gmail.com" class="footerLink fadedFont">Email</a></p>
+        </address>
+    </footer>
+    
+    <script src="scripts/script.js" charset="UTF-8"></script>
+</body>
+</html>
